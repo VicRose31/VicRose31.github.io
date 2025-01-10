@@ -1,6 +1,59 @@
 /* Performance Buttons */
 
 #plus {
-    background-color: hsl(120, 27%, 51%);
+    background-color: hsl(169, 59%, 39%);
+    font-size: 24px;
+}
+
+#plus:hover {
+    background-color: hsl(169, 59%, 49%);
+}
+
+#prompted {
+    background-color: hsl(45, 79%, 50%);
+    font-size: 20px;
+}
+
+#prompted:hover {
+    background-color: hsl(45, 79%, 60%);
+}
+
+#minus {
+    background-color: hsl(19, 95%, 43%);
+    font-size: 24px;
+}
+
+#minus:hover {
+    background-color: hsl(19, 95%, 53%);
+}
+
+.performance-button {
     font-weight: 900;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#reset {
+    height: 30px;
+    width: 60px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background-color: rgb(183, 179, 179);
+}
+
+/* Header */
+
+h1 {
+    background-image: url(../images/people-speaking.png);
+    height: 235px;
+    text-align : center;
+    font-size: 4.2em;
+    color: black);
 }
